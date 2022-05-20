@@ -1,0 +1,51 @@
+@import "../../../assets/Variable/Variable.scss";
+
+$componentWidth: 184px;
+$imageBorderRadius: 17px;
+
+.nameText {
+  font-size: $h5FontSize;
+  font-family: $defaultFontFamily;
+  text-align: center;
+  font-weight: bold;
+}
+
+.positionText {
+  font-size: $bodyFontSize;
+  font-family: $defaultFontFamily;
+  text-align: center;
+}
+
+.image {
+  width: $componentWidth;
+  height: $componentWidth;
+  border-radius: $imageBorderRadius;
+}
+
+.textContainer {
+  width: $componentWidth;
+  padding-top: 10px;
+}
+
+.imageContainer {
+  width: $componentWidth;
+  height: $componentWidth;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: $imageBorderRadius;
+}
+
+.imageContainer--no-border {
+  width: $componentWidth;
+  height: $componentWidth;
+
+  background: #ffffff;
+  border-radius: $imageBorderRadius;
+}
+
+.officerContainer {
+  display: flex;
+  flex-direction: column;
+  width: $componentWidth;
+}
